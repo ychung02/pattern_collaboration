@@ -1,0 +1,122 @@
+/* Rectangle 2: */
+border: 2px solid #FFFFFF;
+border-radius: 8px;
+
+/* ENTER: */
+font-family: AkkuratPro-Regular;
+font-size: 12px;
+color: #FFFFFF;
+letter-spacing: 1.26px;
+line-height: 14px;
+
+section:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+section{
+	width:100%;
+	background-color: grey;
+}
+body{
+	margin:0;
+}
+.work{
+	width:33.333333%;
+	padding-bottom: 33.333333%;
+	background-color: grey;
+	float:left;
+	background-size: cover;
+	background-position:center;
+	position: relative;
+}
+
+#overlay    {  background:rgba(0,0,0,.75);
+               opacity:0;
+               -webkit-transition: opacity .25s ease;
+				-moz-transition: opacity .25s ease;}
+.work .text {
+	font-family:Helvetica;
+	font-weight:30;
+	color:rgba(255,255,255,.85);
+	font-size:50px;
+	opacity:0.6;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	transition: all 0.4s ease-in-out;
+}
+
+.work .text:hover{
+	font-family:Helvetica;
+	font-weight:25;
+	color:rgba(255,255,255,.85);
+	font-size:40px;
+	opacity:0.8;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+#work_1{
+	background-image: url(../images/2.png);
+	transition: all 0.7s ease-in-out;
+	opacity:0.7;
+}
+#work_2{
+	background-image: url(../images/3.png);
+	transition: all 0.7s ease-in-out;
+}
+#work_3{
+	background-image: url(../images/4.png);
+	transition: all 0.7s ease-in-out;
+}
+#work_4{
+	background-image: url(../images/5.png);
+	transition: all 0.7s ease-in-out;
+}
+#work_5{
+	background-image: url(../images/6.png);
+	transition: all 0.7s ease-in-out;
+}
+#work_6{
+	background-image: url(../images/7.png);
+	transition: all 0.7s ease-in-out;
+}
+#work_7{
+	background-image: url(../images/8.jpg);
+	transition: all 0.7s ease-in-out;
+}
+
+
+#work_1:hover{
+	background-image: url(../images/hover/2.png);
+}
+#work_2:hover{
+	background-image: url(../images/hover/3.png);
+}
+#work_3:hover{
+	background-image: url(../images/hover/4.png);
+}
+#work_4:hover{
+	background-image: url(../images/hover/5.png);
+}
+#work_5:hover{
+	background-image: url(../images/hover/6.png);
+}
+#work_6:hover{
+	background-image: url(../images/hover/7.png);
+}
+#work_7:hover{
+	background-image: url(../images/hover/8.png);
+}
+
